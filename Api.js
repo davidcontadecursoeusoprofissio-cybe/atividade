@@ -47,3 +47,4 @@ async function Buscatime() {
 }
 Buscatime()    
 //com if else
+//try
