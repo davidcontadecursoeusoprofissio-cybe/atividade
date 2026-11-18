@@ -1,0 +1,37 @@
+body {
+font-family: Arial, sans-serif;
+background: #0f3d22;
+color: #ffffff;
+margin: 0;
+padding: 24px;
+}
+h1 {
+text-align: center;
+}
+#mensagem {
+text-align: center;
+}
+#times {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+gap: 16px;
+}
+.card {
+background: #ffffff;
+color: #222222;
+padding: 16px;
+border-radius: 10px;
+text-align: center;
+}
+.card img {
+width: 90px;
+height: 90px;
+}
+.card h2 {
+font-size: 18px;
+color: #0f3d22;
+}
+.card p {
+font-size: 14px;
+margin: 4px 0;
+}
